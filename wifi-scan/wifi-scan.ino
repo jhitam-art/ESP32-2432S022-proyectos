@@ -151,7 +151,8 @@ void ejecutarScan() {
   // Limpiar zona de lista
   tft.fillRect(0, 55, 240, BOTON_Y - 55, COLOR_FONDO);
   dibujarEstado("Escaneando redes...", COLOR_AVISO);
-
+ // Ponemos el ESP32 en modo estación y desconectamos
+ // cualquier conexión previa antes de iniciar el escaneo.
   WiFi.mode(WIFI_STA);
   WiFi.disconnect();
   delay(100);
