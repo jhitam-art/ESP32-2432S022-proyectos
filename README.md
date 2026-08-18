@@ -1,8 +1,13 @@
 # ESP32-2432S022-proyectos
 
+![Placa ESP32-2432S022 (vista trasera)](docs/img/ESPback.jpg)
+
 Colección de sketches de prueba y proyectos para la placa **ESP32-2432S022**,
 un módulo "todo en uno" con ESP32, pantalla TFT ST7789 de 2.2" (240x320,
 bus paralelo 8080), táctil capacitivo CST816S y ranura para microSD.
+
+> ⚠️ No confundir con la ESP32-2432S028 ("Cheap Yellow Display"): son placas
+> distintas, con pines y configuración de LovyanGFX diferentes.
 
 Cada carpeta es un proyecto independiente y autocontenido, pensado tanto
 como referencia de código funcional para esta placa concreta (pines,
@@ -37,10 +42,3 @@ escanear redes WiFi, etc.
    propia carpeta con ese mismo nombre, como exige Arduino IDE)
 4. Selecciona placa **ESP32 Dev Module** y el puerto correspondiente
 5. Compila y sube
-
-## Notas
-
-Los pines de pantalla y táctil son los mismos en todos los proyectos
-(ya validados sobre placa real); cada README específico detalla además
-los pines particulares que use ese sketch (por ejemplo, los de SPI
-para la microSD).
