@@ -76,9 +76,9 @@ localizado y listo para visualizar.*
 
 - Arduino IDE
 - Core ESP32 (Espressif Systems): **v3.1.3**
-  (versiones más recientes, como 4.0.0-alpha1, dan errores de
-  compilación por cambios internos en ESP-IDF — símbolos como
-  `VSPI_HOST` o `i2s_port_t` ya no existen en esas versiones)
+  (El repositorio ha sido probado con ESP32 Arduino Core v3.1.3.
+  Versiones posteriores pueden requerir cambios de compatibilidad
+  con LovyanGFX.)
 
 ## Salida esperada por Serial
 
