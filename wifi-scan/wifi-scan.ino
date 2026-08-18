@@ -1,4 +1,23 @@
 // ============================================================
+// ESP32-2432S022 - WiFi Scanner
+//
+// Hardware:
+//   ESP32-2432S022
+//   TFT ST7789 240x320
+//   Touch CST816S
+//
+// Entorno probado:
+//   Arduino IDE
+//   ESP32 Arduino Core 3.1.3
+//
+// Librerías externas:
+//   LovyanGFX
+//
+// Descripción:
+//   Escanea las redes WiFi cercanas y las muestra
+//   en la pantalla táctil.
+// ============================================================
+// ============================================================
 //  ESP32-2432S022 - Test WiFi Scanner
 //  Escanea las redes WiFi cercanas y las muestra en pantalla.
 //  Boton tactil "RESCAN" para repetir el escaneo.
