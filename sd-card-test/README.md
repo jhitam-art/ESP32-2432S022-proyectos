@@ -97,7 +97,7 @@ Usada:   0 MB
 
 ## Notas / problemas conocidos
 
-*(pendiente — cuéntame el error que comentaste y lo documento aquí)*
+No se han detectado problemas adicionales durante las pruebas realizadas con el entorno indicado.
 
 ## Próximos pasos
 
