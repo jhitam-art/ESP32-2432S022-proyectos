@@ -1,6 +1,6 @@
 # ESP32-2432S022-proyectos
 
-![Placa ESP32-2432S022 (vista trasera)](img/ESP32back.jpg)
+![Placa ESP32-2432S022 (vista trasera)](/img/ESP32back.jpg)
 
 Colección de sketches de prueba y proyectos para la placa **ESP32-2432S022**,
 un módulo "todo en uno" con ESP32, pantalla TFT ST7789 de 2.2" (240x320,
